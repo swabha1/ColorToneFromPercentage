@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Color",
@@ -16,5 +16,8 @@
     "percentage"
   ],
   "author": "Swapnil Bhamat",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
